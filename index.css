@@ -1,0 +1,65 @@
+body {
+  background: rgb(226,124,225);
+  background: linear-gradient(90deg, rgba(226,124,225,1) 2%, rgba(193,8,113,1) 52%, rgba(228,176,0,1) 100%);
+  font-family: Arial, sans-serif;
+}
+
+.home, .game {
+  text-align: center;
+  margin-top: 50px;
+}
+
+input {
+  background: rgb(255,156,251);
+background: linear-gradient(90deg, rgba(255,156,251,1) 2%, rgba(255,150,212,1) 52%, rgba(219,152,255,1) 100%);
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+button {
+  background: rgb(206,156,255);
+background: linear-gradient(90deg, rgba(206,156,255,1) 2%, rgba(109,50,235,1) 52%, rgba(37,146,198,1) 100%);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.number-box {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin: 20px auto;
+  
+}
+
+.feedback {
+  font-size: 20px;
+  color: #333;
+}
+
+.number-box {
+  background: rgb(255,254,156);
+background: linear-gradient(90deg, rgba(255,254,156,1) 2%, rgba(186,156,34,1) 52%, rgba(228,176,0,1) 100%);
+  width: 300px;
+  height: 200px;
+  border: 3px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin: 30px auto;
+  transition: opacity 0.5s ease-in-out; 
+}
+
+.hidden {
+  opacity: 0; 
+}
+
+.visible {
+  opacity: 1; 
+}
