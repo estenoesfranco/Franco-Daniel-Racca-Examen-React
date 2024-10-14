@@ -19,7 +19,6 @@ background: linear-gradient(90deg, rgba(255,156,251,1) 2%, rgba(255,150,212,1) 5
 
 button {
   background: rgb(206,156,255);
-background: linear-gradient(90deg, rgba(206,156,255,1) 2%, rgba(109,50,235,1) 52%, rgba(37,146,198,1) 100%);
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
